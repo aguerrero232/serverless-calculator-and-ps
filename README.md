@@ -1,4 +1,4 @@
-# Cloud Computing Quiz 8
+# Serverless practice
 
 * ## [use my serverless calculator and pubsub example here](https://storage.googleapis.com/quiz8-bucket/index.html)
 
