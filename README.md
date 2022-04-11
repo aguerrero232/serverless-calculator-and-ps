@@ -10,7 +10,7 @@
 
 ## Task 1
 
-Create and deploy a Python Cloud Functions (***serverless***)
+Create and deploy a Cloud Function using python and GCP (***serverless***)
 
 HTTP arguments:
 
