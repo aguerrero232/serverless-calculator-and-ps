@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dark.css">
+    <title>Calculator pub/sub</title>
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <div class="container" id="outer">
+                    <label for="pubsub" style="color: whitesmoke;">pub/sub</label>
+                    <button class="btn btn-primary btn-sm" onclick="pubsub()" name="pubsub" id="pubsub"
+                        value="pubsub">order</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container" id="outer">
+                    <p id="response2"></p>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+        <div class="container" style="margin-top: 30px; margin-bottom: 15px;">
+            <hr style="width: 99%; margin: auto;">
+        </div>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <div class="container" id="outer">
+                    <div class="container" id="form-container">
+                        <!-- title calc -->
+                        <div class="row">
+                            <div class="col">
+                                <h1>Calculator</h1>
+                                <div class="container" style="margin-top: 15px; margin-bottom: 15px;">
+                                    <hr style="width: 99%; margin: auto;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-floating">
+                            <input type='number' class="form-control border-0" id="num1" placeholder="x" name="num1"
+                                required>
+                            <label for="num1">x</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type='number' class="form-control border-0" id="num2" placeholder="y" name="num2"
+                                required>
+                            <label for="num2">y</label>
+                        </div>
+                        <button class="btn btn-primary" onclick="add()" name="op" id="add" value="add">+</button>
+                        <button class="btn btn-primary" onclick="sub()" name="op" id="sub" value="sub">-</button>
+                        <button class="btn btn-primary" onclick="mul()" name="op" id="mul" value="mul">×</button>
+                        <button class="btn btn-primary" onclick="div()" name="op" id="div" value="div">÷</button>
+                        <button class="btn btn-primary" onclick="pow()" name="op" id="pow" value="pow">x^y</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container" id="outer">
+                    <div class="container" id="center">
+                        <div class="col">
+                            <h3>Calculation</h3>
+                            <div class="container" style="margin-top: 15px; margin-bottom: 15px;">
+                                <hr style="width: 99%; margin: auto;">
+                            </div>
+                        </div>
+                        <div>
+                            <p id="response">0.0</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

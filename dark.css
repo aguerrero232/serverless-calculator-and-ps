@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: fit-content;
+  min-width: 100%;
+}
+
+body {
+  background-color: #262626;
+}
+
+hr {
+  color: #c1adea;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+p,
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: #c1adea;
+}
+
+input:hover,
+input:active,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.form-control {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.btn.btn-primary {
+  background-color: #c1adea;
+  border: none;
+  outline: none;
+  margin-top: 9px;
+  margin-left: 4px;
+}
+
+.btn.btn-primary:hover {
+  background-color: #262626;
+  color: #c1adea;
+}
+
+#outer.container {
+  margin-top: 50px;
+}
+
+#center.container {
+  padding-top: 10px;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+}
+
+#form-container.container {
+  padding-top: 10px;
+  max-width: 650px;
+  width: 250px;
+  margin: auto;
+  padding: 10px;
+  border: solid 1px whitesmoke;
+  border-radius: 15px;
+}
